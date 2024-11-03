@@ -133,7 +133,7 @@
 }
 
 .bet-button {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   display: inline-block;
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
@@ -278,8 +278,6 @@
   padding: 174px 50px 88px;
   font-size: 18px;
 }
-
-
 
 .footer__address {
   font-style: normal;
