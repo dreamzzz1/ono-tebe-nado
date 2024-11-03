@@ -20,6 +20,10 @@
   list-style-type: circle;
 }
 
+.header__link__active {
+  text-decoration: none;
+}
+
 .header__links-list-item:first-child {
   list-style: none;
 }
@@ -46,7 +50,7 @@
   padding-right: 65px;
 }
 
-.header__address {
+.address {
   display: flex;
   flex-direction: column;
   font-style: normal;
@@ -63,11 +67,10 @@
   text-align: center;
   text-transform: uppercase;
   background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
-
 
 .overlay {
   position: absolute;
@@ -88,36 +91,28 @@
 
 .aligned-text {
   display: flex;
-  gap: 30px;
   padding-top: 165px;
   padding-left: 50px;
 }
 
 .no-letter-spacing {
-  letter-spacing: 0;
+  letter-spacing: 1;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 30px;
-}
-
-.no-first-letter-spacing{
-  padding-right: 30px;
+  letter-spacing: 60px;
 }
 
 .aligned-text_center {
   display: flex;
   justify-content: center;
-  gap: 32px;
   padding-top: 20px;
-  padding-right: 60px;
   line-height: 100%; 
 }
 
 .aligned-text_right {
   display: flex;
   justify-content: right;
-  padding-right: 50px;
   padding-top: 20px;
   line-height: 100%;
 }
@@ -138,6 +133,7 @@
 }
 
 .bet-button {
+  font-family: Raleway;
   display: inline-block;
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
@@ -185,6 +181,7 @@
   align-items: end;
   align-content: space-between;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   min-height: 563px;
   
@@ -192,26 +189,14 @@
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-
-
-
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card__title {
@@ -227,7 +212,7 @@
 
 .card__text {
   position: relative;
-  padding: 0px 40px 48px;
+  padding: 0 40px 48px;
   font-size: 20px;
 }
 
