@@ -91,16 +91,17 @@
 
 .aligned-text {
   display: flex;
+  letter-spacing: 30px;
   padding-top: 165px;
   padding-left: 50px;
 }
 
-.no-letter-spacing {
-  letter-spacing: 1;
+.letter-spacing-extended {
+  letter-spacing: 70px;
 }
 
-.letter-spacing-extended {
-  letter-spacing: 60px;
+.no-letter-spacing {
+  letter-spacing: 0;
 }
 
 .aligned-text_center {
